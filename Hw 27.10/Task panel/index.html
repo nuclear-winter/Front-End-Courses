@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div class="main-container border-to-all">
+
+        <header class="main-container__header border-to-all">
+            <h1>Task manager</h1>
+            <button class="main-container__header-button"  type="button" id="addTask" onclick="callTaskAdd()">Add task</button>
+        </header>
+
+        <div class="main-content border-to-all" id="taskContainer">
+
+            
+
+        </div>
+
+    </div>
+
+    <div class="task-add-container border-to-all" id="inputTask">
+        <p id="error"></p>
+        <input type="text" class="add-new-task"  id="taskField" size="20">
+        <input type="button" value="add" id="addTask" onclick="addNewTask()">
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

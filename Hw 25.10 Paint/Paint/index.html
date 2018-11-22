@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script src= 'script/script.js'></script>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        
+        <div class="canvas-wrapper painter">
+            <canvas id='canvas1' width="667px" height="500px"></canvas>
+        </div>
+        
+            <input type="text" placeholder="input your color" id="getColor" size="20">
+            
+            <select name="" id="selectFigure">
+                <option value="round" id="circle">circle</option>
+                <option value="square" id="rectangle">rectangle</option>
+                <option value="triangle" id="hexagon">hexagon</option>
+            </select>
+
+            <button type="button" id="pen" onclick="setPen()">Pen</button>
+
+       
+                <input type="range" min="1" max="100" step="1" value="50" id="myRange">
+
+            <p>Coordinates: <span id='coordinates'></span></p>
+           
+            
+            
+
+   
+    </body>
+</html>

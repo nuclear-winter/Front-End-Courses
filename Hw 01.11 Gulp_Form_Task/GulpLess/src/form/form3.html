@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" type="text/css" href="styles/reset_style.css/reset_style.css">
+        <link rel="stylesheet" type="text/css" href="../styles/styles.less">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js"></script>
+        <title>Forma №3</title>
+    </head>
+
+    <body>
+        <div class="main-container">
+            <div class="headline">
+                <h2 class="headline__text">Please take a moment to tell us whant you think about our site:</h2>
+            </div>
+
+            <div class="content">
+                <span class="content__text">Name:</span>
+                <div class="content__bottom-left">
+                    <input type="text" class="content__input">
+                </div>
+            </div>
+
+            <div class="content">
+                <span class="content__text">Email:</span>
+                <div class="content__bottom-left">
+                    <input type="text" class="content__input">
+                </div>
+            </div>
+
+            <div class="content">
+                <span class="content__text">How frequently do you visit our site?:</span>
+                <div class="content__bottom-left">
+                    <select name="frequently" class="content__select">
+                        <option value="frequency">Site frequency:</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="content">
+                <span class="content__text">I frequenty purchase the following products from our site:</span>
+                <div class="content__bottom-left">
+                    <form>
+                        <input type="checkbox" class="content__checkbox" name="red">Software
+                        <input type="checkbox" class="content__checkbox" name="green">Cookware
+                        <input type="checkbox" class="content__checkbox" name="brown">Chef's Hats
+                    </form>
+                </div>
+            </div>
+
+            <div class="content">
+                <span class="content__text">Our site's greatest asset is:</span>
+                <form>
+                    <input type="radio" name="Product Selection">Product Selection
+                    <input type="radio" name="Cool desing">Cool desing
+                    <input type="radio" name="Customer service">Customer service
+                </form>
+            </div>
+
+            <div class="content">
+                <span class="content__text">Comments:</span>
+                <form>
+                    <textarea name="comments" class="content__textarea" cols="40" rows="10"></textarea>
+                </form>
+            </div>
+
+            <div class="content">
+                <form>
+                    <button type="submit" name="Submit">Submit!</button>
+                </form>
+            </div>
+        </div>
+    </body>
+
+</html>
